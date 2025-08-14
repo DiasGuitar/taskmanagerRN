@@ -16,14 +16,21 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.diasguitar.taskmanager",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
+  
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "910f59af-a353-48ca-b202-6bdb370d7f48"
+      }
     }
   }
 }
